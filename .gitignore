@@ -2,3 +2,7 @@
 /.vs
 /SimpleManualDispatcher.Center.UI/obj
 /SimpleManualDispatcher.Shared/obj
+/SimpleManualDispatcher.Server.API/bin
+/SimpleManualDispatcher.Vehicle.UI/bin
+/SimpleManualDispatcher.Vehicle.UI/obj
+/SimpleManualDispatcher.Shared/bin

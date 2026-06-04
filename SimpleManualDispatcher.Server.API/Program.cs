@@ -1,4 +1,5 @@
 using NLog.Web;
+using Scalar.AspNetCore;
 using SimpleManualDispatcher.Server.API.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,8 @@ builder.Host.UseNLog();
 // Dependency Injection
 
 
+builder.Services.Configure<AspnetCore>(
+    builder.Configuration.GetSection("ScalarOptions"));
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -29,6 +32,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();

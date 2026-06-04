@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="SimpleManualDispatcher.Center.UI/SimpleManualDispatcher.Center.UI.csproj" Id="b4ce9604-e017-491a-90a2-f3d0a1c75206" />
   <Project Path="SimpleManualDispatcher.Server.API/SimpleManualDispatcher.Server.API.csproj" />
+  <Project Path="SimpleManualDispatcher.Shared/SimpleManualDispatcher.Shared.csproj" Id="ea33d030-84c7-43ba-a007-b8cec158687b" />
+  <Project Path="SimpleManualDispatcher.Vehicle.UI/SimpleManualDispatcher.Vehicle.UI.csproj" Id="64f3ec38-b171-4962-a89b-511e668779a0" />
 </Solution>

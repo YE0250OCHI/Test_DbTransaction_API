@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "テスト1",
+    "Projects": [
+      {
+        "Path": "SimpleManualDispatcher.Server.API\\SimpleManualDispatcher.Server.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SimpleManualDispatcher.Vehicle.UI\\SimpleManualDispatcher.Vehicle.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

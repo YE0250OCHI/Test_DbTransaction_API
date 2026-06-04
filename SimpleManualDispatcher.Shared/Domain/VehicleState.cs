@@ -1,4 +1,4 @@
-﻿namespace SimpleManualDispatcher.Server.API.Domain;
+﻿namespace SimpleManualDispatcher.Shared.Domain;
 
 public enum VehicleState
 {
