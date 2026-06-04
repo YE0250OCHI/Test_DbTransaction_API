@@ -1,2 +1,4 @@
 /SimpleManualDispatcher.Server.API/obj
 /.vs
+/SimpleManualDispatcher.Center.UI/obj
+/SimpleManualDispatcher.Shared/obj
